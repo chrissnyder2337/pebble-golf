@@ -1,0 +1,31 @@
+name: Feature request / idea
+description: Suggest an improvement or a new feature
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make Pebble Golf better? I'd love to hear it. Even rough
+        thoughts are welcome.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature or improvement, and the problem it would solve for you.
+      placeholder: e.g. Show the distance to carry the front bunker, not just the green.
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How would you imagine it working?
+      description: Optional. Any thoughts on the flow, buttons, or which screen it would live on.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+    validations:
+      required: false

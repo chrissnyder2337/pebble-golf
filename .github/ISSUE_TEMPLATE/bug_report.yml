@@ -1,0 +1,63 @@
+name: Bug report
+description: Something isn't working right in Pebble Golf
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. The more detail you give, the
+        faster it can be tracked down. Please search existing issues first in case
+        it's already reported.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen, and what actually happened?
+      placeholder: e.g. Distance to the green stayed blank on hole 5, even after walking up the fairway.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How could someone else see the same thing?
+      placeholder: |
+        1. Pick course ...
+        2. Choose tee ...
+        3. Walk to hole ...
+    validations:
+      required: false
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - On the Pebble watch
+        - In the phone app / config page
+        - Not sure
+    validations:
+      required: false
+  - type: input
+    id: course
+    attributes:
+      label: Course and tee
+      description: Which course (and tee) were you playing, if it's relevant?
+      placeholder: e.g. Pebble Beach, Blue tees
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown on the watch under Settings -> About.
+      placeholder: e.g. 0.9.0
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, a photo of the watch, or any other context.
+    validations:
+      required: false
