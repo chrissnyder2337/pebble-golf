@@ -1,5 +1,7 @@
 # Pebble Golf
 
+**[Get it on the Pebble App Store](https://apps.repebble.com/pebble-golf_57f80ba0bfbe4ad7a44dbbcf)**
+
 <a href="https://www.buymeacoffee.com/ChrisSnyder" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 A GPS golf rangefinder and digital scorecard for the **Pebble Time 2**.
